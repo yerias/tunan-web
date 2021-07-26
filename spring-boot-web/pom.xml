@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tunan.web</groupId>
-    <artifactId>tunan-web</artifactId>
+    <artifactId>spring-boot-web</artifactId>
     <version>0.0.1</version>
-    <name>tunan-web</name>
+    <name>spring-boot-web</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -48,6 +48,13 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
+        </dependency>
+
+<!--        ////////////////////////////////////           -->
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
         <dependency>
